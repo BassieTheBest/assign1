@@ -1,11 +1,11 @@
-# CS 1024 - (Spring 2024) Assignment One
+## CSCE 10204: Assignment One
 
 ### Problem One - Method to Convert a String to an Integer
              
-Write the code to implement the **stringToInt() method**. This method should parse the string argument as a signed decimal integer. The characters in the string must all be decimal digits, except that the first character may be an ASCII minus sign '-' ('\u002D') to indicate a negative value or an ASCII plus sign '+' ('\u002B') to indicate a positive value. The resulting integer value is returned.
-
-**public static int stringToInt(String str)**
-
+Write the code to implement the **stringToInt() method**. This method should parse the string argument as a signed decimal integer. The characters in the string must all be decimal digits, except that the first character may be an ASCII minus sign '-' to indicate a negative value or an ASCII plus sign '+' to indicate a positive value. The resulting integer value is returned.
+```Java
+public static int stringToInt(String str)
+```
 **Parameters:**
 
 str - a String containing the int representation to be parsed
@@ -21,9 +21,9 @@ This method should perform the same as the *Integer.parseInt()* method in the Ja
 ### Problem Two - Method to Convert an Integer to a String
              
 Write the code to implement the **intToString() method**. Returns a String object representing the specified integer. The argument is converted to signed decimal representation and returned as a string.
-
-**public static String intToString(int val)**
-
+```Java
+public static String intToString(int val)
+```
 **Parameters:**
 
 val - an integer to be converted.

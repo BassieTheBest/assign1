@@ -14,7 +14,7 @@ str - a String containing the int representation to be parsed
 
 The integer value represented by the argument in decimal.
 
-This method should perform the same as the *Integer.parseInt()* method in the Java library.  **For this problem, the only Java classes/methods that can be used are String.length(), String.charAt(), and System.out.printf().  You cannot use any of the other classes or methods for this problem.**
+This method should perform the same as the **Integer.parseInt()** method in the Java library.  *For this problem, the only Java classes/methods that can be used are **String.length(), String.charAt(), and String.equals()**.  You cannot use any of the other classes or methods for this problem.*
 
 ---
 
@@ -32,5 +32,5 @@ val - an integer to be converted.
 
 A String representing the signed integer value.
 
-This method should perform the same as the *Integer.toString()* method in the Java library.  **For this problem, the only Java classes/methods that can be used are String.length(), String.charAt(), and System.out.printf().  You cannot use any of the other classes or methods for this problem.**
+This method should perform the same as the **Integer.toString()** method in the Java library.  *For this problem, the only Java classes/methods that can be used are **String.length(), String.charAt(), and String.equals().**  You cannot use any of the other classes or methods for this problem.*
 

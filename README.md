@@ -34,4 +34,4 @@ A String representing the signed integer value.
 
 This method should perform the same as the **Integer.toString()** method in the Java library.  *For this problem, the only Java classes/methods that can be used are **String.length(), String.charAt(), and String.equals().**  You cannot use any of the other classes or methods for this problem.*
 
-Test each of your methods with different test cases(input using a driver program to verify the functions 
+Test each of your methods with **different test cases(input)** using a driver program to verify the correctness of your methods. 
